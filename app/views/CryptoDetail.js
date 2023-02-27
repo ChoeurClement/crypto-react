@@ -16,7 +16,7 @@ export const CryptoDetail = ({navigation, route}) => {
                     source= {{uri: 'https://s2.coinmarketcap.com/static/img/coins/64x64/'+ route.params.item.id + '.png'}}
                 />
 
-                <Text>Prix : {route.params.item.quote.EUR.price} €</Text>
+                <Text>Prix : {route.params.item.quote.EUR.price} €€</Text>
             </View>
         </View>
     )
